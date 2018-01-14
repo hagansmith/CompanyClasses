@@ -58,40 +58,11 @@ namespace Kroger
         protected string _employeeJobTitle;
         protected DateTime _employeeStartDate;
 
-        public string EmployeeName
-        {
-            get
-            {
-                return _employeeName;
-            }
-            set
-            {
-                _employeeName = value;
-            }
-        }
+        public string EmployeeName { get; set; }
 
-        public string JobTitle
-        {
-            get
-            {
-                return _employeeJobTitle;
-            }
-            set
-            {
-                _employeeJobTitle = value;
-            }
-        }
+        public string JobTitle { get; set; }
 
-        public DateTime StartDate
-        {
-            get
-            {
-                return _employeeStartDate;
-            }
-            set
-            {
-                _employeeStartDate = value;
-            }
-        }
+        public DateTime StartDate { get; set }
+
     }
 }
